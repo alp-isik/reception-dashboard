@@ -1,0 +1,93 @@
+/* 1. layout & basics */
+body {
+  font-family: Calibri, sans-serif;
+  color: #212529;
+}
+
+/* 2. navbar */
+.navbar {
+  background-color: #0e8ea8; /* brand blue */
+  font-family: Consolas, monospace;
+}
+
+.dropdown-menu {
+  background-color: #83d1e1; /* brand light blue */
+}
+
+.dropdown-item {
+  color: #212529;
+}
+
+/* 3. page header */
+#companyLogo {
+  width: 8rem;
+  height: 8rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* 4. tables */
+table {
+  text-align: center;
+}
+
+table td,
+table th {
+  vertical-align: middle;
+}
+
+table.table {
+  border: 1px solid #212529;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+table tbody tr {
+  cursor: pointer;
+}
+
+table.table thead th {
+  font-family: Consolas, monospace;
+  background-color: #0e8ea8; /* brand blue */
+  color: #fff;
+}
+
+table.table tbody td {
+  background-color: #83d1e1; /* brand light blue */
+  color: #212529;
+  border-color: #212529;
+}
+
+/* 5. staff images + selected row */
+.staff-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.selected-row td {
+  background-color: #d6f1f4 !important;
+}
+
+/* 6. buttons */
+.btn-success,
+.btn-danger {
+  font-family: Consolas, monospace;
+  color: #fff;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.btn-success:hover,
+.btn-danger:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+/* 7. footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
