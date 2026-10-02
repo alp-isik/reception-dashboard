@@ -1,5 +1,3 @@
-# README.md for reception-dashboard
-
 # Reception Dashboard
 
 A simple reception management dashboard built as a school project. The application simulates a front-desk interface where staff presence and deliveries can be tracked in a clear, visual layout.
